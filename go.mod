@@ -15,7 +15,7 @@ require (
 	github.com/spf13/viper v1.14.0
 	github.com/stretchr/testify v1.8.1
 	gopkg.in/yaml.v2 v2.4.0
-	gorm.io/driver/postgres v1.4.6
+	gorm.io/driver/postgres v1.4.7
 	gorm.io/gorm v1.24.2
 	k8s.io/client-go v0.26.0
 )

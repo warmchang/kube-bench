@@ -1,6 +1,7 @@
 module github.com/aquasecurity/kube-bench
 
 go 1.23.6
+toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.3
@@ -17,7 +18,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/driver/postgres v1.5.11
 	gorm.io/gorm v1.25.12
-	k8s.io/apimachinery v0.32.2
+	k8s.io/apimachinery v0.32.3
 	k8s.io/client-go v0.32.2
 )
 
